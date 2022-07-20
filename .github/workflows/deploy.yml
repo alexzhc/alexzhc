@@ -7,7 +7,10 @@ on:
     branches: [main]
 
 jobs:
-  test-deploy:
+  defaults:
+    run:
+      working-directory: website
+  test-deploy-docs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
@@ -20,7 +23,7 @@ jobs:
         run: npm ci
       - name: Test build website
         run: npm build
-  deploy:
+  deploy-docs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
