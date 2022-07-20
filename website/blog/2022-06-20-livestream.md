@@ -7,7 +7,7 @@ tags: [livestream]
 
 ![Livestream Highlights](imgs/livestream-highlights.png)
 
-The rapid development of Cloud native industry makes many things possible, but it also poses some challenges for application development and operation. As more and more stateful applications are moved  onto container platforms, stateful applications have become a major consumer of storage. As a cornerstone for running applications, storage now becomes a major challenge in the process of containerization. In the era of cloud native, what are the new requirements for storage systems? What are the new opportunities and challenges facing cloud-native storage? What are the popular cloud native storage solutions?
+The rapid development of cloud native industry makes many things possible, but it also poses some challenges for application development and operation. As more and more stateful applications are moved onto container platforms, stateful applications have become a major consumer of storage. As a cornerstone for running applications, storage now becomes a major challenge in the process of containerization. In the era of cloud native, what are the new requirements for storage systems? What are the new opportunities and challenges facing cloud-native storage? What are the popular cloud native storage solutions?
 
 On June 20th, 2022, we had a live discussion with [Pengyun Network](https://www.pengyunnetwork.cn/#/Main) on three topics: cloud-native local storage, cloud-native storage solutions for Kubernetes, and the storage systems needed in the era of cloud native.
 
