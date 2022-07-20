@@ -1,16 +1,38 @@
-### Hi there 👋
+# Documentation [under development]
 
-<!--
-**alexzhc/alexzhc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-Here are some ideas to get you started:
+All markdown documents are placed under `/docs`. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Their translations are placed under `/i18n/cn/docusaurus-plugin-content-docs/current`
+
+## Local development
+
+```
+$ npm start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+Note: You may not view `translation switch` using local development server. To view Chinese translation site **only**:
+
+```
+$ npm start -- --locale cn
+```
+
+## Build
+
+```
+$ npm run build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Host build locally
+
+Note: Only `build` can view `translation switch`
+
+```
+$ npm run serve
+```
+
