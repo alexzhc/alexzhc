@@ -3,8 +3,10 @@ name: Deploy to GitHub Pages
 on:
   pull_request:
     branches: [main]
+    paths: [website]
   push:
     branches: [main]
+    paths: [website]
 
 jobs:
   test-deploy-docs:
